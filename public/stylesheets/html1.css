@@ -1,0 +1,96 @@
+@import url('fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@import url('https://fonts.googleapis.com/css?family=Ranga');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */
+}
+
+/* optional: show position indicator in red */
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+main{
+    color:
+}
+
+body {
+    background-color:#;
+    margin: 0;
+    font-family: 'sunflower', sans-serif;
+    font-size: 175%;
+}
+.background{
+    background-color:#34495e;
+}
+
+.main_1{
+    
+    background-image:url('501447.jpg');
+} .main h1 {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-style: italic;
+    font-family: 'Ranga', cursive;
+    color: darkblue;
+    text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+    -moz-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+    -webkit-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+}
+
+.blogby {
+    font-family: 'do hyeon', sans-serif;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+#nav_menu h1 a {
+    top: 0;
+    margin: 0;
+    font-style: italic;
+    font-family: 'Ranga', cursive;
+    color: darkblue;
+    text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+    -moz-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+    -webkit-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+}
+
+#nav_menu h1 {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: 0;
+}
+
+#nav_ul {
+    position: fixed;
+    top: -1.2rem;
+    right: 0;
+}
+
+#nav_menu ul li {
+    display: inline-block;
+    border-left: 1px solid #c0c0c0;
+    padding: 0px 10px 0px 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+#nav_menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav_menu ul li:first-child {
+    border-left: none;
+}

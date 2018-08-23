@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/html1.css">
+    <title>첫째날 일본여행</title>
+</head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var container = $('.container');
+        var main = $('.main');
+        var vi = 100;
+        container.css('visibility', 'hidden');
+        $(window).scroll(function () {
+            var num = $(window).scrollTop();
+            if (num > vi) {
+                container.css('visibility', 'visible');
+                main.fadeOut();
+            }
+            else
+                main.fadeOut();
+        })
+    })
+</script>
+
+<body>
+    <div class="main">
+        <h1 class="main_1" align="center"">
+            <br>
+            <br>
+            <br><br>My First Tokyo, Osaka Trip at July, 2018
+            <br>Day 1
+            <br><br><div class="blogby">blog by jang</div>
+            
+        </h1>
+        
+    </div>
+    <div class="container">
+        <header>
+            <nav id="nav_menu">
+                <h1 class = "background">
+                    <a href="main.html" style="text-decoration:none;" id="nav_h1">My First Tokyo, Osaka Trip at July, 2018</a>
+                </h1>
+                <ul id="nav_ul">
+                    <li>
+                        <a href="html.html">첫번째</a>
+                    </li>
+                    <li>
+                        <a href="html2.html">두번째</a>
+                    </li>
+                    <li>
+                        <a href=""></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="content">
+
+            <main>
+                <div align="center">
+                    <p align="middle" style="padding-top:10rem;">1일차 영상</p>
+                    <p align="middle">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Zn_UdPoKexc?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                            allowfullscreen></iframe>
+                    </p>
+                </div>
+                <p align="middle">
+                    정말 설레는 첫 해외여행이었습니다. <br>언젠간 일본을 갈 수 있겠지 하는 생각으로 2년을 버티고 버텨 드디어 일본에 갈 수 있게 되었습니다.
+                </p>
+            </main>
+            <aside>
+            </aside>
+        </section>
+        <footer>
+            <br>Footer
+        </footer>
+        <aside>
+
+        </aside>
+    </div>
+</body>
+
+</html>
