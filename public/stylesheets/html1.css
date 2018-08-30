@@ -20,24 +20,27 @@ html {
     background: #FF0000;
 }
 
-main{
-    color:
-}
-
 body {
-    background-color:#;
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(0deg, #00dffc, #008c9e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(0deg, #00dffc, #008c9e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin: 0;
     font-family: 'sunflower', sans-serif;
     font-size: 175%;
 }
-.background{
-    background-color:#34495e;
+
+.background {
+    background-color: #005f6b;
 }
 
-.main_1{
-    
-    background-image:url('501447.jpg');
-} .main h1 {
+.main_1 {
+    background-image: url('501447.jpg');
+}
+
+.main h1 {
     margin: 0;
     height: 100%;
     width: 100%;

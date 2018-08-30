@@ -3,13 +3,17 @@
 @import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
 @import url('https://fonts.googleapis.com/css?family=Sunflower:300');
 body {
-    background-image:url('501447.JPG');
+    background:url('501447.JPG') no-repeat center center fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .move_first{
     font-family:'sunflower', sans-serif;
     text-decoration:none;
-    color:darkviolet;    
+    color:#7200da;    
     text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
     -moz-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
     -webkit-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
@@ -23,7 +27,7 @@ body {
 .move_second{
     font-family: 'sunflower', sans-serif;
     text-decoration:none;
-    color: rgb(57, 71, 32);
+    color: #00b9f1;
     text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
     -moz-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
     -webkit-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
