@@ -7,6 +7,33 @@ html {
     overflow-x: hidden;
 }
 
+.main h1 {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-style: italic;
+    font-family: 'Ranga', cursive;
+    color: darkblue;
+    text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+    -moz-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+    -webkit-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+}
+#nav_menu h1 a {
+    top: 0;
+    margin: 0;
+    font-style: italic;
+    font-family: 'Ranga', cursive;
+    color: darkblue;
+    text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+    -moz-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+    -webkit-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+}
+
+.background,#nav_ul {
+    background-color: #005f6b;
+    z-index:1;
+}
+
 ::-webkit-scrollbar {
     width: 0px;
     /* remove scrollbar space */
@@ -21,35 +48,31 @@ html {
 }
 
 body {
-    background: #11998e;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(0deg, #00dffc, #008c9e);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(0deg, #00dffc, #008c9e);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(0deg, #c481e6, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(0deg, #c481e6, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin: 0;
     font-family: 'sunflower', sans-serif;
     font-size: 175%;
 }
 
-.background {
-    background-color: #005f6b;
-}
 
 .main_1 {
     background-image: url('501447.jpg');
 }
 
-.main h1 {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    font-style: italic;
-    font-family: 'Ranga', cursive;
-    color: darkblue;
-    text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
-    -moz-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
-    -webkit-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
+.incheon{
+   transform:rotate(90deg);
+   width:600px;
+   height:400px;
+   padding-top:300px;
+   margin-left:300px;
+   float:center;
+}
+
+.gif{
+    width:480px;
+    height:680px;
 }
 
 .blogby {
@@ -58,16 +81,6 @@ body {
     color: rgb(0, 0, 0);
 }
 
-#nav_menu h1 a {
-    top: 0;
-    margin: 0;
-    font-style: italic;
-    font-family: 'Ranga', cursive;
-    color: darkblue;
-    text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
-    -moz-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
-    -webkit-text-shadow: -1px 0 #F2F1F6, 0 1px #F2F1F6, 1px 0 #F2F1F6, 0 -1px #F2F1F6;
-}
 
 #nav_menu h1 {
     width: 100%;
