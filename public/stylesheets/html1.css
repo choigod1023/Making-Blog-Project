@@ -49,8 +49,8 @@ html {
 
 body {
     background: #12c2e9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(0deg, #c481e6, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(0deg, #c481e6, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(0deg, #c481e6, #426BCA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(0deg, #c481e6, #426BCA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin: 0;
     font-family: 'sunflower', sans-serif;
     font-size: 175%;
@@ -71,7 +71,7 @@ background: linear-gradient(0deg, #c481e6, #12c2e9); /* W3C, IE 10+/ Edge, Firef
 }
 
 .gif{
-    width:480px;
+    width:400px;
     height:680px;
 }
 
